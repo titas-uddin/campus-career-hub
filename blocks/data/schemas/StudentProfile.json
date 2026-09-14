@@ -1,0 +1,16 @@
+{
+  "collectionName": "blx_StudentProfiles",
+  "schemaName": "StudentProfile",
+  "schemaType": 1,
+  "fields": [
+    { "name": "UserId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": true, "description": "IAM user id of the student", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "FullName", "type": "String", "isArray": false, "isPIIData": true, "isUniqueData": false, "description": "Student full name", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "Email", "type": "String", "isArray": false, "isPIIData": true, "isUniqueData": false, "description": "Student email", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "Department", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "CSE, BBA or EEE", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "GraduationYear", "type": "Int", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Expected graduation year", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "Skills", "type": "String", "isArray": true, "isPIIData": false, "isUniqueData": false, "description": "Self-declared skills", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "Bio", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Projects and experience, free text", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "ResumeFileId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Storage file id of the uploaded CV", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "PortfolioUrl", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "GitHub or portfolio link", "requiredOn": "None", "fields": [], "validationRule": null }
+  ]
+}

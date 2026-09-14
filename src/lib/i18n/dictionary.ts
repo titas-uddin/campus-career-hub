@@ -1,0 +1,25 @@
+export const defaultDictionary = {
+  "app.name": "CampusCareer",
+  "nav.profile": "Profile",
+  "nav.logout": "Log out",
+  "auth.welcome": "Welcome back",
+  "auth.subtitle": "University internship and placement hub. Students, employers and career services sign in here.",
+  "auth.continue": "Continue with Blocks",
+  "auth.redirecting": "Redirecting...",
+  "auth.notConfigured": "Login is not configured yet. Register a public OIDC client and set VITE_BLOCKS_OIDC_CLIENT_ID in .env.",
+  "auth.failed": "Sign-in failed",
+  "auth.back": "Back to sign in",
+  "common.save": "Save",
+  "common.cancel": "Cancel",
+  "common.delete": "Delete",
+  "common.refresh": "Refresh",
+  "common.loading": "Loading",
+  "common.error": "Something went wrong",
+  "profile.title": "Profile",
+  "profile.subtitle": "Signed-in user details from Blocks IAM.",
+  "notFound.title": "404",
+  "notFound.message": "This page does not exist.",
+  "notFound.home": "Back home"
+} as const;
+
+export type TranslationKey = keyof typeof defaultDictionary;

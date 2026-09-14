@@ -1,0 +1,20 @@
+{
+  "collectionName": "blx_MatchExplanations",
+  "schemaName": "MatchExplanation",
+  "schemaType": 1,
+  "fields": [
+    { "name": "ApplicationId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": true, "description": "ItemId of the Application, one explanation per application", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "OpportunityId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "ItemId of the Opportunity", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "StudentUserId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Applicant user id, denormalized for scoping", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "EmployerUserId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Posting owner user id, denormalized for scoping", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "Summary", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "One-paragraph plain-language verdict", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "CoveredSkills", "type": "String", "isArray": true, "isPIIData": false, "isUniqueData": false, "description": "Required skills the student has", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "MissingSkills", "type": "String", "isArray": true, "isPIIData": false, "isUniqueData": false, "description": "Required skills the student lacks", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "RelevantExperience", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Most relevant project or experience from the profile", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "CoachingTip", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "One concrete interview tip", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "GeneratedAt", "type": "DateTime", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "When the explanation was produced", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "FlaggedByStudent", "type": "Boolean", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Student disputed this explanation", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "FlagReason", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Why the student thinks it is wrong", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "FlaggedAt", "type": "DateTime", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "When the flag was raised", "requiredOn": "None", "fields": [], "validationRule": null }
+  ]
+}

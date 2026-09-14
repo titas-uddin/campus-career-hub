@@ -1,0 +1,145 @@
+{
+  "security": [
+    {
+      "schemaId": "ffd53d56-6f56-401e-83c6-93a80e457ce6",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 0,
+      "policyType": 0
+    },
+    {
+      "schemaId": "ffd53d56-6f56-401e-83c6-93a80e457ce6",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 1,
+      "policyType": 0
+    },
+    {
+      "schemaId": "ffd53d56-6f56-401e-83c6-93a80e457ce6",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 2,
+      "policyType": 0
+    },
+    {
+      "schemaId": "ffd53d56-6f56-401e-83c6-93a80e457ce6",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 3,
+      "policyType": 0
+    },
+    {
+      "schemaId": "c0c946c6-ed08-4478-9d8a-21c5b8e30c4d",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 0,
+      "policyType": 0
+    },
+    {
+      "schemaId": "c0c946c6-ed08-4478-9d8a-21c5b8e30c4d",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 1,
+      "policyType": 0
+    },
+    {
+      "schemaId": "c0c946c6-ed08-4478-9d8a-21c5b8e30c4d",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 2,
+      "policyType": 0
+    },
+    {
+      "schemaId": "c0c946c6-ed08-4478-9d8a-21c5b8e30c4d",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 3,
+      "policyType": 0
+    },
+    {
+      "schemaId": "d8c692be-461d-4720-8460-2b60d8140efd",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 0,
+      "policyType": 0
+    },
+    {
+      "schemaId": "d8c692be-461d-4720-8460-2b60d8140efd",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 1,
+      "policyType": 0
+    },
+    {
+      "schemaId": "d8c692be-461d-4720-8460-2b60d8140efd",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 2,
+      "policyType": 0
+    },
+    {
+      "schemaId": "d8c692be-461d-4720-8460-2b60d8140efd",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 3,
+      "policyType": 0
+    },
+    {
+      "schemaId": "eeac2c98-a9e4-41e3-89a3-639dc322cf76",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 0,
+      "policyType": 0
+    },
+    {
+      "schemaId": "eeac2c98-a9e4-41e3-89a3-639dc322cf76",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 1,
+      "policyType": 0
+    },
+    {
+      "schemaId": "eeac2c98-a9e4-41e3-89a3-639dc322cf76",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 2,
+      "policyType": 0
+    },
+    {
+      "schemaId": "eeac2c98-a9e4-41e3-89a3-639dc322cf76",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 3,
+      "policyType": 0
+    },
+    {
+      "schemaId": "0879eb28-3a68-4142-aa64-b54e0e12b170",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 0,
+      "policyType": 0
+    },
+    {
+      "schemaId": "0879eb28-3a68-4142-aa64-b54e0e12b170",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 1,
+      "policyType": 0
+    },
+    {
+      "schemaId": "0879eb28-3a68-4142-aa64-b54e0e12b170",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 2,
+      "policyType": 0
+    },
+    {
+      "schemaId": "0879eb28-3a68-4142-aa64-b54e0e12b170",
+      "accessLevel": 1,
+      "fieldNames": [],
+      "operation": 3,
+      "policyType": 0
+    }
+  ],
+  "policies": []
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "blx_Opportunitys",
+  "schemaName": "Opportunity",
+  "schemaType": 1,
+  "fields": [
+    { "name": "Title", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Posting title", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "EmployerUserId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "IAM user id of the employer who owns this posting", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "EmployerName", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Company name shown to students", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "Department", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Target department: CSE, BBA, EEE or Any", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "SkillsRequired", "type": "String", "isArray": true, "isPIIData": false, "isUniqueData": false, "description": "Required skills", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "Stipend", "type": "Int", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Monthly stipend in BDT", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "Slots", "type": "Int", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Number of open positions", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "ApplicationDeadline", "type": "DateTime", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Last date to apply", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "Description", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Role description", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "Status", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Open or Closed", "requiredOn": "None", "fields": [], "validationRule": null }
+  ]
+}

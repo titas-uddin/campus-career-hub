@@ -1,0 +1,25 @@
+{
+  "collectionName": "blx_Applications",
+  "schemaName": "Application",
+  "schemaType": 1,
+  "fields": [
+    { "name": "OpportunityId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "ItemId of the Opportunity", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "OpportunityTitle", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Snapshot of the posting title", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "EmployerUserId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Owner of the posting, denormalized for scoping", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "EmployerName", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Company name, denormalized for analytics", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "StudentUserId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "IAM user id of the applicant", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "ApplicantName", "type": "String", "isArray": false, "isPIIData": true, "isUniqueData": false, "description": "Snapshot of the student name", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "ApplicantDepartment", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Snapshot of the student department", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "ApplicantSkills", "type": "String", "isArray": true, "isPIIData": false, "isUniqueData": false, "description": "Snapshot of the student skills at apply time", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "ApplicantResumeFileId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Snapshot of the CV file id", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "CurrentStage", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Applied, Screening, Shortlisted, Interviewing, Offered, Hired or Rejected", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "AppliedAt", "type": "DateTime", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "When the student applied", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "LastStageChangeAt", "type": "DateTime", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Timestamp of the latest stage transition", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "InterviewStartedAt", "type": "DateTime", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "First time the stage became Interviewing", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "LastEmployerUpdateAt", "type": "DateTime", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Last time the employer reported an outcome", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "ShortlistNote", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Staff note when shortlisting", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "RejectionReason", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Kind, recorded reason shown to the student", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "RejectedByUserId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Staff user who rejected", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "RejectedAt", "type": "DateTime", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "When the rejection was recorded", "requiredOn": "None", "fields": [], "validationRule": null }
+  ]
+}

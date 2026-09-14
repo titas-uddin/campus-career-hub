@@ -1,0 +1,15 @@
+{
+  "collectionName": "blx_StageEvents",
+  "schemaName": "StageEvent",
+  "schemaType": 1,
+  "fields": [
+    { "name": "ApplicationId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "ItemId of the Application", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "StudentUserId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Applicant user id, denormalized for scoping", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "EmployerUserId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Posting owner user id, denormalized for scoping", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "Stage", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Stage entered", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "ChangedAt", "type": "DateTime", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "When the transition happened", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "ChangedByUserId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Who made the change", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "ChangedByRole", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "student, employer or staff", "requiredOn": "None", "fields": [], "validationRule": null },
+    { "name": "Note", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Message visible on the student timeline", "requiredOn": "None", "fields": [], "validationRule": null }
+  ]
+}
